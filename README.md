@@ -36,7 +36,7 @@ python3 -m venv venv
 # 가상 환경 활성화
 source venv/bin/activate
 
-pip install --upgrade --force-reinstall -r requirements.txt
+pip install --upgrade --force-reinstall -r unsloth/requirements.txt
 
 # Unsloth 및 최신 라이브러리 설치
 #pip install --upgrade --force-reinstall --no-cache-dir unsloth unsloth_zoo
@@ -49,8 +49,8 @@ pip install --upgrade --force-reinstall -r requirements.txt
 ## Run 
 
 ```bash
-python qwen35_unsloth_peft_test.py
-python qwen35_unsloth_inference_test.py
+python unsloth/qwen35_unsloth_peft_test.py
+python unsloth/qwen35_unsloth_inference_test.py
 ```
 
 ---
