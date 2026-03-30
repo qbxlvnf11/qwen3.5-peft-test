@@ -51,6 +51,8 @@ pip install --upgrade --force-reinstall -r unsloth/requirements.txt
 ```bash
 python unsloth/qwen35_unsloth_peft_test.py
 python unsloth/qwen35_unsloth_inference_test.py
+# 베이스 모델, peft 모델 비교
+python inference_compare.py --base_model {base_model} --lora_dirs {lora_dirs}
 ```
 
 ---
